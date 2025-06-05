@@ -1,3 +1,13 @@
+
+# Executables
+*.exe   # Windows executables
+*.out   # Linux/Unix executables
+*.app   # macOS applications
+*.i*86  # x86 architecture executables
+*.x86_64 # 64-bit x86 executables
+*.hex   # Hex files (often used in embedded systems)
+
+
 # Prerequisites
 *.d
 
