@@ -17,5 +17,12 @@ int main() {
         printf("The number is zero.\n");
     }
 
+
+    // Short version of if - else if - else
+    int number2;
+    printf("Enter another integer: ");
+    scanf("%d", &number2);
+    (number2 > 0) ? printf("The number is positive.\n") : (number2 < 0) ? printf("The number is negative.\n") : printf("The number is zero.\n");
+
     return 0;
 }
