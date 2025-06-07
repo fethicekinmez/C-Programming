@@ -17,4 +17,20 @@ int main(){
         break;
     }
 
+    int number = 20;
+
+    switch (number % 10){
+    case 0:
+        printf("The number is a multiple of 10.\n");
+    default:
+        switch (number % 3) {
+            case 0:
+                printf("The number is a multiple of 3.\n");
+                break;
+            default:
+                break;
+        }
+        break;
+    }
+
 }
